@@ -8,12 +8,17 @@ import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
 import GreetingMessage from "./components/GreetingMessage";
 import Button from "./components/Button";
+import CounterApp from "./components/CounterApp";
+import Friends from "./components/Friends";
 
 const App = () => {
   return (
     <div>
       <Greeting />
+      <CounterApp />
       <ProductInfo />
+      <Friends />
+      <hr />
       <Numbers />
       <Vehicle />
       <Password isValid={true} />
